@@ -11,4 +11,4 @@ WORKDIR /app
 EXPOSE 2211
 
 # Run the JAR file
-ENTRYPOINT ["java", "-jar", "Abhishyandh-Global-Solutions-WebApplication-2.jar"]
+ENTRYPOINT ["java", "-jar", "/app/Abhishyandh-Global-Solutions-WebApplication-2.jar"]
